@@ -7,7 +7,7 @@ module blink(
 		output reg led
 	);
 
-	localparam MAX_COUNT = 10_000_000;
+	localparam MAX_COUNT = 1_000_000;
 	localparam CNT_TOP = $clog2(MAX_COUNT);
 
 	wire i_clk;
